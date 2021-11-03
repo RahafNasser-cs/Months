@@ -1,0 +1,33 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+ android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/month_icon"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_item"
+        app:layout_constraintTop_toTopOf="@id/month_icon"
+        app:layout_constraintStart_toEndOf="@id/month_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/month_icon"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="yyyyyyyyy"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
