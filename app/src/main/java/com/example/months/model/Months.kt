@@ -2,4 +2,4 @@ package com.example.months.model
 
 import android.graphics.drawable.Drawable
 
-data class Months(val stringResourceId: Int, val stringResourceIdImg: Int){}
+data class Months(val stringResourceId: Int, val stringResourceIdImg: Int, val stringResourceIdSound: Int){}

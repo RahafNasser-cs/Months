@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Months" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/grey_light</item>
-        <item name="colorPrimaryVariant">@color/grey_dark</item>
+        <item name="colorPrimary">#AEB7B8</item>
+        <item name="colorPrimaryVariant">#969B9C</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/orang_light</item>
@@ -11,6 +11,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+<!--        <item name="android:statusBarColor" tools:targetApi="l">@color/orang_dark</item>-->
         <!-- Customize your theme here. -->
     </style>
 </resources>
