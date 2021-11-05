@@ -1,4 +1,6 @@
 # Months 
-## Recycler View
+> Create an application that display:
+>> - Months --> RecyclerView
+>> - Affirmations sound --> MediaPlayer
 ### I used --> TextView & ImageView 
-![Screenshot (24)](https://user-images.githubusercontent.com/92260346/140302570-4dd046b3-3aa7-43d7-ba8a-bfcf2aa280fa.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/92260346/140469428-4c889122-1cac-4ec1-86d8-7241b0a0ea15.png)
